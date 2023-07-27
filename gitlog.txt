@@ -1,0 +1,1398 @@
+commit f8499d046ffd8667c9fe17baae7be1861b891657
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Mon Apr 24 14:49:52 2023 -0600
+
+    commenting and variable renaming in HumanPlayer
+
+commit 98041ba27f2d0f82b15b40e1f98b448f67a1574f
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Mon Apr 24 11:47:24 2023 -0600
+
+    refactored, addded comments and comment blocks and removed commented out code
+
+commit 0ac51fa45338385641fdff04fecec01dfa6d8daf
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sun Apr 23 14:18:53 2023 -0600
+
+    added code to humanplayer for being moved around
+
+commit add67ad54f14e3c34b469c67e2638faa6db45f38
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sun Apr 23 14:15:31 2023 -0600
+
+    Added dialoge box for computer winning
+
+commit 2b7d34d9b05fe900b201b3546611ce40fcc4ac76
+Merge: 8b4ad18 ae83e61
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sun Apr 23 14:03:06 2023 -0600
+
+    merging errors
+
+commit 8b4ad18e0df00cb1dfcaa7b3dd7d70a870b17932
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sun Apr 23 14:02:22 2023 -0600
+
+    Should be able to stay in a room that you were brought into because someone accused you. Computer can't do this if the player accuses them currently
+
+commit ae83e61f3a8f4e0593e1a758ce0309deefef2759
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sun Apr 23 13:54:17 2023 -0600
+
+    look at those ui fixes
+
+commit ff6a8ee77f1d98bfee6beb563c08901e0bdc6015
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sun Apr 23 13:29:15 2023 -0600
+
+    fixed blank suggestion box
+
+commit 23714fc6493077bd11ed7422e8651e1d0a68e9e6
+Merge: 68d9015 cb3f89b
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sun Apr 23 13:16:07 2023 -0600
+
+    Merge branch 'main' of https://github.com/chulongbayan/ClueGame
+
+commit 68d9015a63bef40b26dcba75eceee6e4decaab8f
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sun Apr 23 13:12:02 2023 -0600
+
+    warnings annoy me
+
+commit cb3f89b761d666419655e2030b0e1f5685dbf3e0
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sun Apr 23 13:11:12 2023 -0600
+
+    merge
+
+commit 048329182b1c7a5e0730975a1f8a8b891972e27e
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Thu Apr 20 15:59:26 2023 -0600
+
+    made it so card panel updates when it is supposed to
+
+commit 558a302cb6d22dcbc76a1894ae57bffd286b7d9b
+Merge: 971e0ad abe223a
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Thu Apr 20 15:46:43 2023 -0600
+
+    merge
+
+commit 971e0ad2d8b250991fdc1a34e71b517933cea167
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Thu Apr 20 15:39:58 2023 -0600
+
+    merge
+
+commit abe223a03bbf44679ae648bae9c1dd3dcdb627b8
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Thu Apr 20 15:34:53 2023 -0600
+
+    fix jaccuse
+
+commit 138f95ba09c294539b7d21fe52346c270c73bb14
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Thu Apr 20 15:25:12 2023 -0600
+
+    make accusation button now works (in a stupid way)
+
+commit 67ed7b26109a2ca105b1875d65ac0dd44157868b
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Thu Apr 20 14:53:45 2023 -0600
+
+    see previous
+
+commit 81ca37032694794a78b7346056d2aee0f0a5e3cb
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Thu Apr 20 14:50:52 2023 -0600
+
+    minor bugfixes to human suggestion dialog
+
+commit f5a853eca3c0fc5a605a73852715270de0f88905
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Thu Apr 20 12:04:29 2023 -0600
+
+    modifed print suggestion a little bit
+
+commit 9b0b61f8e7cb00033316039fbf924839c71d4165
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Thu Apr 20 11:59:34 2023 -0600
+
+    Made it so players in the same room are not overlapping, they are offset from eachother. Might cause them to go a little outside of certain rooms
+
+commit 1a52fc058854ce8e15adf583fe6f2403897a7c19
+Merge: f566e67 c35cda7
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Thu Apr 20 10:49:40 2023 -0600
+
+    Merge branch 'main' of https://github.com/chulongbayan/ClueGame
+
+commit f566e678f4cd1f050c37ec33c055456f784d0997
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Thu Apr 20 10:49:28 2023 -0600
+
+    Started making it so that players are not overlapping in rooms
+
+commit c35cda78bb569cb4e880cdc1da9b8b0628a8fe24
+Merge: 045bcc2 1b3e911
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Thu Apr 20 10:43:53 2023 -0600
+
+    Merge branch 'main' of https://github.com/chulongbayan/ClueGame
+
+commit 045bcc288618a7b7c4c361b42b7a79425b890838
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Thu Apr 20 10:43:08 2023 -0600
+
+    adding in suggestion handling for player is going to give me an anyuresm
+
+commit 1b3e9111a0cac1d724cab1af37fc0fe8a103c24a
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Thu Apr 20 10:37:16 2023 -0600
+
+    Changed our clueLayout.csv to better draw secret passage labels. Fixed calc targets so that it correctly handles secret passages. Made it so that seenHands is updated
+
+commit 3febfbdea609dcdd180fb1b9d015b3b36c14386f
+Merge: b28c985 9075e68
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Thu Apr 20 09:23:19 2023 -0600
+
+    Merge branch 'main' of https://github.com/chulongbayan/ClueGame
+
+commit b28c985d0fa7625b19e7c91fb138dc8c87c93b6a
+Merge: dfb2c75 a475c1a
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Thu Apr 20 09:22:40 2023 -0600
+
+    not working suggestion dialoughe box
+
+commit 9075e687cfdd79c0bedb0d2ab2638fb4c8be7f83
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Tue Apr 18 10:48:35 2023 -0600
+
+    Fixed bug where target squares went away if you clicked anywhere on the board.
+
+commit c8e4aaf203e228c24826bc24e60bc4ab48ea17d4
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Tue Apr 18 10:44:48 2023 -0600
+
+    Finished computers code functionallity. Computer now plays its full turn. Need to test it making an accusation
+
+commit dfb2c75f3536ce375344f046a7eeecefeea9d7c7
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Tue Apr 18 10:11:09 2023 -0600
+
+    see last
+
+commit 3ad2be9e7c2f3ed1c386be4117c0dfbbc094567e
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Tue Apr 18 10:10:23 2023 -0600
+
+    started HumanPlayer suggestion stuff
+
+commit a475c1aa77537e385e0e37e2abedd8b55e970293
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Tue Apr 18 10:09:33 2023 -0600
+
+    Added computer's functionallity for game flow
+
+commit 4b3cfcbabb488492c5703c51d49afb8b267d2b84
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Tue Apr 18 09:56:02 2023 -0600
+
+    Added functions to make accusations to player
+
+commit bbe27c574560b6aa109c6c6aaea595a180852ef9
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Tue Apr 18 09:33:01 2023 -0600
+
+    Added drawing player in a different place in a room, commented it out for now since it doesn't work on the computer
+
+commit 4b9d66083af3150f1e9ab6a25f1cc02f3c721229
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Mon Apr 17 09:46:42 2023 -0600
+
+    Refactored mouse listener in board and added comments all over
+
+commit c15f54ac7205b7de0de79bc1a8664a27b5e5faac
+Merge: ae922b2 734bb7a
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sun Apr 16 17:08:58 2023 -0600
+
+    Merge branch 'main' of https://github.com/chulongbayan/ClueGame
+
+commit ae922b2ff2f6874b9305196a9c2d011bae5b5e50
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sun Apr 16 17:08:53 2023 -0600
+
+    Added comment blocks to GameCardPanel
+
+commit 734bb7aaac2cc23c42c1742ce331c6c59103ac34
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sun Apr 16 17:03:12 2023 -0600
+
+    moar comment block
+
+commit 19cf31eae7e409b985eaba29d98df430f593746e
+Merge: 95acd5f bcc06c5
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sun Apr 16 16:59:42 2023 -0600
+
+    Merge branch 'main' of https://github.com/chulongbayan/ClueGame
+
+commit 95acd5f94c55e0cb933155c3cd924af3b61f642a
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sun Apr 16 16:59:25 2023 -0600
+
+    comment blocks
+
+commit bcc06c50ac9ce69267027ad5bd7b70a1fb785d24
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sun Apr 16 16:57:31 2023 -0600
+
+    Added comment blocks and in line comments to board, deal, paintcomponent and boardListener
+
+commit c12eb107cfb073aa200ee92aaab6ea8ae158b00e
+Merge: 41ace63 80a7242
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sun Apr 16 16:38:11 2023 -0600
+
+    Merge branch 'main' of https://github.com/chulongbayan/ClueGame
+
+commit 41ace63490b2bfb29483009b56b6a5100d0c5b72
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sun Apr 16 16:35:18 2023 -0600
+
+    got rid of useless getters and setters in board
+
+commit 80a724274044991619111218a450055afb1af861
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sun Apr 16 16:35:09 2023 -0600
+
+    refactored deal function
+
+commit c65903d78d3a8345737a0fccb52420053e6e7ee7
+Merge: 62a1178 3b8aba4
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sun Apr 16 16:26:06 2023 -0600
+
+    merge conflicts
+
+commit 62a11789db9c92f7bbe6dd1d1e612d399707a244
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sun Apr 16 16:24:33 2023 -0600
+
+    Added comment blocks to the player classes and 'cleaned' the code in them
+
+commit 3b8aba4eb46a6c2080792d4d72facef70339690a
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sun Apr 16 16:22:58 2023 -0600
+
+    removed useless tostring function in Player
+
+commit 73e0a113e28d40073747acc8399bbd8f71e42c08
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sun Apr 16 16:18:16 2023 -0600
+
+    fixed failing calctargets tests
+
+commit 92f3d7c13dcd53aaa2a662171b89443520678040
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sun Apr 16 16:13:13 2023 -0600
+
+    fixed test in GameSetupTests
+
+commit 46c0aa30f0f39fbe49cd0cc681fd8e2c610f6d4d
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sun Apr 16 16:03:14 2023 -0600
+
+    see previous
+
+commit f6927c76a95ce47fedb9436618848f02a356f152
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sun Apr 16 16:01:44 2023 -0600
+
+    cleaned up board, formmatting spacing and removing commented out code
+
+commit 8e25a79791de06562d64be1c02e5d71acae003b0
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sun Apr 16 15:59:22 2023 -0600
+
+    Added comment blocks to most new functions in boardCell
+
+commit 25b9ea88c7f292a93eebd85586a6973c5d68af86
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sun Apr 16 15:43:32 2023 -0600
+
+    Moved mouse click to mouse pressed to avoid double clicking error
+
+commit 59661e3a35943cf31622a571f606941eae61540f
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sun Apr 16 15:39:00 2023 -0600
+
+    Fixed issue with drawing target squares for squares that weren't targets
+
+commit 047e68114d4b8208ad79bf2f647cf4ef1f62f262
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sun Apr 16 15:27:23 2023 -0600
+
+    Removed hardCoded calcposition in cluegame
+
+commit b850588f27825fb8cb8aa919d443e625474ac23a
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sun Apr 16 15:18:17 2023 -0600
+
+    Added comments
+
+commit 3c43e446de0833883e811be2c726a5a332f34c85
+Merge: 5e392c1 3b0e277
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sun Apr 16 15:14:54 2023 -0600
+
+    merge conflicts
+
+commit 5e392c193484bd1be702b8cf6a6f95974d6517ae
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sun Apr 16 15:12:31 2023 -0600
+
+    No longer shows computer targets
+
+commit 3b0e2778e21b7afad7d049a6ff9de3c3174703c9
+Merge: 84a42b5 936dcf8
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sun Apr 16 15:08:14 2023 -0600
+
+    Merge branch 'main' of https://github.com/chulongbayan/ClueGame
+
+commit 84a42b509dccf80d636bafa9f5705cb364c30b75
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sun Apr 16 15:06:44 2023 -0600
+
+    merge stuff
+
+commit 936dcf8ee15a4f493275c18922b9975b0a741295
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sun Apr 16 15:05:58 2023 -0600
+
+    Made it so that blue squares go away after a new target is selected
+
+commit 98ecb2b20eb6b22c46236392a6f6d5a472138d39
+Merge: 3161bc3 0a36ca2
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sun Apr 16 14:50:45 2023 -0600
+
+    fixed merging conflicts
+
+commit 3161bc3e7ccd76541dd06af340490a7c8a5f582f
+Merge: 6dd42c1 c83367b
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sun Apr 16 14:49:55 2023 -0600
+
+    Debugged mouse listener, can now move player around, bug sometimes need to double click to move.
+
+commit 0a36ca223092a8cd391390c96e8262bb4bf66ad8
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sun Apr 16 14:40:04 2023 -0600
+
+    added spash screen (ugly)
+
+commit 6dd42c1f8bf7a61b98570399096e41f5ef0cc3ac
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sun Apr 16 14:31:35 2023 -0600
+
+    Board can now draw the target squares for the user, added mouse listener, need to debug mouse listener.
+
+commit c83367b498bc202a23acba7ae61b66cf317b3440
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sun Apr 16 14:12:56 2023 -0600
+
+    next button stuff in function nextFlow()
+
+commit bae0eefb482930517048bbf1f609c8f7940d1cb3
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Tue Apr 11 10:27:03 2023 -0600
+
+    Fixed minor GUI bug concerning sizing
+
+commit 9b284902f25dd1edcc54f6cfdba430b9d20ae287
+Merge: 1a95181 451c0dc
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sun Apr 9 14:47:20 2023 -0600
+
+    Merge branch 'main' of https://github.com/chulongbayan/ClueGame
+
+commit 1a95181c2c4038c4098b02534ace6d6e10035202
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sun Apr 9 14:44:15 2023 -0600
+
+    dorrdirection display
+
+commit 451c0dc12bfb1fff3797ea6b14ccf5504dd527b9
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sun Apr 9 14:43:46 2023 -0600
+
+    Added function drawLabel to draw the functions correctly so they don't coverd up
+
+commit c2d4fd3cce1ee137795c2340ef6b1fa8b27222fd
+Merge: 450693f bdc4332
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sun Apr 9 14:32:28 2023 -0600
+
+    Merge branch 'main' of https://github.com/chulongbayan/ClueGame
+
+commit 450693f8722dca46616a3a88082d5b80823c3cb1
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sun Apr 9 14:32:22 2023 -0600
+
+    Added ability to draw other things in cells such as labels
+
+commit bdc4332b50ccedd076bd6e0f6fe908adc29a99d8
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sun Apr 9 14:26:25 2023 -0600
+
+    minor fixes
+
+commit 2d8e53bcc797e5b97a54b79d737b235c38eec36e
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sun Apr 9 14:17:44 2023 -0600
+
+    colors rooms
+
+commit de74ab3a43552a5f5e468ab89bc188dd35d76931
+Merge: 9dd9cd4 3d8c386
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sun Apr 9 14:11:24 2023 -0600
+
+    Merge branch 'main' of https://github.com/chulongbayan/ClueGame
+
+commit 9dd9cd4424dce1e3528956f256429ef530060baf
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sun Apr 9 14:10:57 2023 -0600
+
+    grabbing changes from landon
+
+commit 3d8c386c9646a8912c289cb2f66196a015bdde24
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sun Apr 9 14:10:31 2023 -0600
+
+    Added drawing in a defualt player
+
+commit 425e24c3811c4f04505c02a29f5b2fd689319768
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sun Apr 9 13:50:49 2023 -0600
+
+    Merging
+
+commit 5b1c66ef1253a6ad5fd0e94efc3965906f3eada4
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sun Apr 9 13:49:05 2023 -0600
+
+    forgor save
+
+commit e40ac47e7f1248397704d4292dc60603b756f0d4
+Merge: 2e248c8 9d3c5bc
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sun Apr 9 13:39:25 2023 -0600
+
+    Merge branch 'main' of https://github.com/chulongbayan/ClueGame
+
+commit 2e248c8d8476fa322cc1166e9d71bdfef9188045
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sun Apr 9 13:38:03 2023 -0600
+
+    started drawing stuff
+
+commit 9d3c5bc1e865fc9eb8e0df6fa0838da459969030
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sun Apr 9 13:37:01 2023 -0600
+
+    Added basic constructor to ClueGame to display the card and control panel
+
+commit d5154b67677eb91e9759050e1831940fbf71015d
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sun Apr 9 13:03:56 2023 -0600
+
+    fixing monir thing
+
+commit 12b930033291d49b199280ab6ddb5d388d5f27eb
+Merge: 2510941 da9d402
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sun Apr 9 13:00:34 2023 -0600
+
+    Merge branch 'main' of https://github.com/chulongbayan/ClueGame
+
+commit 2510941df3862cbdfb35a6b20e85eeb0eadf9ecc
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sun Apr 9 13:00:10 2023 -0600
+
+    Added new class that will be the main class and hold all of the gui elements
+
+commit da9d402183fee524536e13edfe4c50cae1525dcd
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Thu Apr 6 18:36:21 2023 -0600
+
+    merging , random littl refactors
+
+commit ac095d563388f0ce7e5ec6c772d68fed97929f11
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Thu Apr 6 18:35:56 2023 -0600
+
+    Cleaned up code, deleted commented out code and put in comments to explain some of it.
+
+commit 554a8ef53eeee40dba7a05b89545528dce586d1e
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Thu Apr 6 16:18:11 2023 -0600
+
+    Added a color to the card class for the color of who is holding the card. Now shows who is holding a card cardPanel gui.
+
+commit ed1127f8fcdb25486cff04b2f89388e0311a8ccb
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Thu Apr 6 15:06:54 2023 -0600
+
+    Random refactor stuff, cosmetic changes, etc
+
+commit bf567d16e01eb4eacc925d5e6c53b35f9c086899
+Merge: 4bf0a72 3db3a5f
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Thu Apr 6 10:47:32 2023 -0600
+
+    Merge branch 'main' of https://github.com/chulongbayan/ClueGame
+
+commit 3db3a5f23584e53aa6a6fe25538925cae423463e
+Merge: 2e98633 ce00f44
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Thu Apr 6 10:46:25 2023 -0600
+
+    Changes in another file
+    
+    Merge branch 'main' of https://github.com/chulongbayan/ClueGame
+
+commit 2e98633c07b5255139172ec33060efd108f7c367
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Thu Apr 6 10:46:02 2023 -0600
+
+    Fixed card panel to actually display the cards in the right spot and to update. Refactored it so the code is better.
+
+commit 4bf0a72adda2e49b8e189862dd9141265d8c7ed4
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Thu Apr 6 10:44:52 2023 -0600
+
+    minor changes, prep for merge
+
+commit ce00f44eea134f7f90eb06f518f8fefd252ad4c5
+Merge: 8506eb4 c181238
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Thu Apr 6 10:09:48 2023 -0600
+
+    Merge branch 'main' of https://github.com/chulongbayan/ClueGame
+
+commit c18123810d7663ef5c6cc69c938c24a105ad24c8
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Thu Apr 6 10:08:45 2023 -0600
+
+    Made CardPanel function properly, need to make it look much prettier, maybe add colors. Desperatly need to refactor code.
+
+commit 8506eb429a47e8932b13a1dc127eb5666fb65cf4
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Thu Apr 6 10:08:15 2023 -0600
+
+    finished GameControlPanel, minus color.
+
+commit 6ece374dfb4eed892237c31c28c95b598f26038e
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Tue Apr 4 10:43:19 2023 -0600
+
+    Got the basics of the gameCardPanel
+
+commit 3dd1ac164398277b50cd908f8e1164d914248705
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Tue Apr 4 09:33:55 2023 -0600
+
+    create class GameControlPanel, random tweaks
+
+commit c43205696e97c5e405f8eed82e1e76484f9d276d
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sat Apr 1 20:31:27 2023 -0600
+
+    fixed failing test in FileInitTest306
+
+commit 8390278f7b74ca8b596600cd948949c05b101e84
+Merge: a041d94 0ac2e6f
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sat Apr 1 19:44:20 2023 -0600
+
+    Fixing merging conflicts
+
+commit a041d94938d39da78d221b32f89a97b8b45ce560
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sat Apr 1 19:42:02 2023 -0600
+
+    All tests pass
+
+commit 256ec03745e2581132e832a237ecfcbcc8c00d88
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sat Apr 1 19:07:26 2023 -0600
+
+    Test fails without erroring
+
+commit d0e0484e9219bc1fee86156f2d96d67af628b61f
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sat Apr 1 18:59:25 2023 -0600
+
+    Added test to test the AI making a suggestion
+
+commit 0ac2e6f4e3a2e3d24f95cc73e2e49816a748350c
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sat Apr 1 18:40:39 2023 -0600
+
+    changed parameter from triple card to soulutions for future use
+
+commit 88914a18c15b1050781e474d6a5a154b2206d56f
+Merge: 379552a 6736091
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sat Apr 1 18:21:56 2023 -0600
+
+    Getting other work
+    Merge branch 'main' of https://github.com/chulongbayan/ClueGame
+
+commit 379552a0fba80acdda68341080b6c0f7e67fac96
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sat Apr 1 18:21:48 2023 -0600
+
+    merging
+
+commit 6736091610295b53ea84ea7330ac281d267cbeb3
+Merge: c97afe9 cf4875f
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sat Apr 1 18:17:02 2023 -0600
+
+    Merge branch 'main' of https://github.com/chulongbayan/ClueGame
+
+commit c97afe9c4e427ceb89a07bdca4c7b321341f8ab5
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sat Apr 1 18:16:33 2023 -0600
+
+    passes testHandleSuggestions
+
+commit cf4875f62adaf0f1d38edd9dc29e9c7c907b420f
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sat Apr 1 18:15:14 2023 -0600
+
+    Fixed selectTarget so that all tests pass.
+
+commit be56640b8f620bc77b8852ad3aeb6415b62b8530
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sat Apr 1 18:12:08 2023 -0600
+
+    Added test to test choosing random space when there is no room, and updated test to be able to go into a seen room, juts randomly.
+
+commit e7d38f670e968e2897ccfd3c30c181fc06f66c3c
+Merge: 26541a5 bd71134
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sat Apr 1 17:56:55 2023 -0600
+
+    Merge branch 'main' of https://github.com/chulongbayan/ClueGame
+
+commit 26541a52cedd939d42b2cc5e7241243c793f45d2
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sat Apr 1 17:52:52 2023 -0600
+
+    added testHandleSuggestion test, fails
+
+commit bd71134540a1af0e8f793bdc44be92e4deb21c36
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sat Apr 1 17:19:05 2023 -0600
+
+    Got testComputerTargetSelectRoom() to pass. Had to refactor some code that should have been done but wasn't for telling if a boardcell was a real room or not.
+
+commit 2bf33c3e94a64ccd85737e0a27135bdd6e6ed677
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sat Apr 1 17:03:10 2023 -0600
+
+    passes testPlayerSuggestionHandling
+
+commit ce4b3ef7e9df50024f6420f4920b36f0c3f290ca
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sat Apr 1 16:33:59 2023 -0600
+
+    added failing test testPlayerSuggestionHandling
+
+commit 0d68e6db0e772c2dbee1c141522f17a4b2ae5d86
+Merge: 10af4a0 64d2253
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sat Apr 1 16:08:35 2023 -0600
+
+    Merge branch 'main' of https://github.com/chulongbayan/ClueGame
+
+commit 10af4a0ca1b257ab08e541b12462e527783debf9
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sat Apr 1 16:08:09 2023 -0600
+
+    passes testSolutions
+
+commit 917951c7022d2464c9eaf4c0a3954ebe5532884d
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sat Apr 1 16:05:22 2023 -0600
+
+    Made testComputerTargetSEelectRoom() test fail without errors
+
+commit 64d2253ee6f242e639954b865dcb6498a85c9655
+Merge: c3dbe18 16f4208
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sat Apr 1 15:58:57 2023 -0600
+
+    Both making changes to different files
+    Merge branch 'main' of https://github.com/chulongbayan/ClueGame
+
+commit c3dbe182cba9d9837be2fbce3ee738798fc1bce4
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sat Apr 1 15:58:44 2023 -0600
+
+    Made a new test to check the computers ability to select a room. Actually this itme
+
+commit cf9b23a2716062847bf4338e6b2ad87d3c384fb7
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sat Apr 1 15:56:04 2023 -0600
+
+    Made a new test to check the computers ability to select a room.
+
+commit 16f4208cfbd3dd5ccf2743c9396df581b32b23d1
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sat Apr 1 15:44:11 2023 -0600
+
+    added testSolution test, fails
+
+commit 6b7b09c40202298ca6f00aaa283ee86066d82f14
+Merge: 4c9e71c 24edc17
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sat Apr 1 15:25:44 2023 -0600
+
+    Both made new files, merging.
+    Merge branch 'main' of https://github.com/chulongbayan/ClueGame
+
+commit 4c9e71cf0f3c429f560073798b253465b04a2399
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sat Apr 1 15:25:27 2023 -0600
+
+    Added new test case file to test basic computer AI
+
+commit 24edc1775d658bb128e2dcc2dfc94ca32dc69ac0
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sat Apr 1 15:22:45 2023 -0600
+
+    added GameSolutionTest
+
+commit 5f5d040ed76317837f507ebdfd2335b2085535e5
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Fri Mar 31 13:52:32 2023 -0600
+
+    added comments
+
+commit 35ff13defc71317b7cbbca6b21e6b883ed8385d0
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Fri Mar 31 10:13:55 2023 -0600
+
+    Added test cardsDeltToPlayers which makes sure each hand has three cards and no card is repeated.
+
+commit d1016b06f3000a9cb2447927adb7a05736c5f3eb
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Fri Mar 31 10:01:17 2023 -0600
+
+    Refactored some code to get the exception tests to pass. Want to undo these changes but can't do that and still pass tests.
+
+commit 811e145ade89907fb80838abb22a39213f2ef431
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Fri Mar 31 08:58:33 2023 -0600
+
+    Updated checkingSolution test to ensure solution is size three.
+
+commit 20124e7f8dff903f86145f9e897d4a26599dfa1f
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Thu Mar 30 15:57:03 2023 -0600
+
+    Debugged deal() function which was in an infinite loop. One of my if statements had the wrong variable.
+
+commit 041e0d8b562a314c06d9135edc2afc28cb06b618
+Merge: c02f54b 9808fca
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Thu Mar 30 15:23:10 2023 -0600
+
+    Merge branch 'main' of https://github.com/chulongbayan/ClueGame
+
+commit c02f54ba0f08f9c7322fe2f50cf3c0cd483ba7a8
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Thu Mar 30 14:53:25 2023 -0600
+
+    Passed tests for LoadingCards
+
+commit 9808fca7857c35fbada45067e02bbc5a4fc8ff4c
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Thu Mar 30 10:45:59 2023 -0600
+
+    Finished deal() assuming certian variables are added by partner. Actually this time. Earlier didn't write code to deal cards to the players, that code is in now
+
+commit 66e7e5696eb27b11b35a0a46eb56547c28547f5c
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Thu Mar 30 10:30:18 2023 -0600
+
+    Finished deal() assuming certian variables are added by partner. Finished getter for solution.
+
+commit 6c82c6a8137e693250bbe10bad35789b375efb75
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Thu Mar 30 10:00:38 2023 -0600
+
+    Created new test checkingSolution which makes sure that a specific solution was generated and stored correctly.
+
+commit b114dc938438c07d273958bf9e4ed860ea67bffc
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Thu Mar 30 09:25:25 2023 -0600
+
+    fails loadingcards tests
+
+commit dbc3f39a0b583385a202dd545020ab985aae9c90
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Tue Mar 28 13:21:53 2023 -0600
+
+    Uncommented out some code
+
+commit 3896122de72b264a43d3a30e46a8b5a546f69d82
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Tue Mar 28 13:21:18 2023 -0600
+
+    Finished updating loadSetupConfig to properly read in players. Also added some helper functions and changed the test so that the results could be compared.
+
+commit e862c84fc6ba5044b51c9914da0870dc3a7145d6
+Merge: 649c025 3dd8794
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Tue Mar 28 10:47:43 2023 -0600
+
+    MergingMerge branch 'main' of https://github.com/chulongbayan/ClueGame
+
+commit 649c02591131e5e8b18b700553727afeab6ea383
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Tue Mar 28 10:47:18 2023 -0600
+
+    added reading in and storing players to loadsetupConfig, did not test yet.
+
+commit 3dd8794768b86e2f1a24a409ec82612a771ff9e2
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Tue Mar 28 10:45:46 2023 -0600
+
+    finished cardtest, errors as i need to add getter and constructor
+
+commit 024b87edc52ec957452dc8b671602d9b4acdde4f
+Merge: 3c43ffe f61a233
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Tue Mar 28 10:43:34 2023 -0600
+
+    Merge branch 'main' of https://github.com/chulongbayan/ClueGame
+
+commit 3c43ffecd24f4c81578891b56dbb4c74a72a7b43
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Tue Mar 28 10:42:29 2023 -0600
+
+    starting card test, pulliing finished player load test
+
+commit f61a233654f4605c87167b0265c799441d778974
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Tue Mar 28 10:40:55 2023 -0600
+
+    Made failing test loadPeople, modified human and comupter player and board so that it didn't error.
+
+commit a1f630d357c1a023d9a04ae161e8b455d9e9fc58
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Tue Mar 28 10:20:29 2023 -0600
+
+    Updated ClueSetup.txt and started tests
+
+commit 28b1aa2b84f609785540c23e5beaff9a08baf2ad
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Tue Mar 28 09:56:49 2023 -0600
+
+    start C20A , created classes and empty methods, test class
+
+commit d163ee5fa71b064c8931742257f14f0f61514a58
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sun Mar 26 14:17:49 2023 -0600
+
+    Cleaned code by removing commented out code that was used for debugging.
+
+commit 48f9c6861cddbad3b4552b4067ed1603943e2e0f
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sun Mar 26 14:10:45 2023 -0600
+
+    added param to initializeGrid()
+
+commit 7a64e2f2af00c1ca26ccc9c10ce70ba8da5ac924
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sun Mar 26 14:04:55 2023 -0600
+
+     added inline to clarify confusing if statements
+
+commit 23e9f01edb9ab3e9bdbfd3a453f85f05db897edd
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sun Mar 26 13:55:34 2023 -0600
+
+    Made a helper function to initialize the grid called intializeGrid.
+
+commit 0c39ebc6185b990324d4df512c8c070f35b8a02e
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sun Mar 26 13:41:23 2023 -0600
+
+    refactored adjacency code into new calcAdjacencies() method
+
+commit a89eaaae456184855bc2a6e1e91b005548e210de
+Merge: 93acada f1b5f6a
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sun Mar 26 13:29:49 2023 -0600
+
+    Merge branch 'main' of https://github.com/chulongbayan/ClueGame
+
+commit f1b5f6afcabbb07b29369dc9fc126f097438dbc2
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sun Mar 26 13:27:38 2023 -0600
+
+    Fixed method header blocks so that parameters were correctly listed
+
+commit dc0306d5da42f2d4e3dedf0d4383ec8c2826e7a1
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sun Mar 26 13:22:15 2023 -0600
+
+    Removed toString method in BoardCell since it was only used for debugging
+
+commit 2a2d9ec1f4874a413fc8ccc4ea99a8d57452c364
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sun Mar 26 13:11:17 2023 -0600
+
+    Added comment blocks to the badConfigFormatException and teh DoorDirection files.
+
+commit 93acadae290eb623c72ed2017283290550a58dfd
+Merge: 4855e81 613613c
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sun Mar 26 12:48:54 2023 -0600
+
+    Merge branch 'main' of https://github.com/chulongbayan/ClueGame
+
+commit 4855e81aa4fb3677902363e92c105bfcaaf6dafc
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sun Mar 26 12:46:49 2023 -0600
+
+    pulling
+
+commit 613613c79c1b673de46e592c1324b0ef357c6e8c
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Wed Mar 8 15:32:52 2023 -0700
+
+    Refactored code by removing print statements that were used for debugging and adding some comments.
+
+commit 5e57a43048e306f00eaead14eb5da3c54de29720
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Wed Mar 8 15:26:26 2023 -0700
+
+    Fixed typos in BoardAdjTargetTest that were causing tests to fail
+
+commit 369b123e07acc158aa583d4d92671295fa20b4c6
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Wed Mar 8 12:07:56 2023 -0700
+
+    Fixed calcTargets, passing all tests in BoardAdjTargetTEst306. See comments to see what bugs were removed and how.
+
+commit 148c59388458268781ad0afd768eca4902f00288
+Merge: 20efb03 538b3e9
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Tue Mar 7 15:31:08 2023 -0700
+
+    Merged code
+
+commit 538b3e99d98970ffebb05ffcc3dc3586d630c036
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Tue Mar 7 10:45:44 2023 -0700
+
+    fixed adjlist calcs, working on calcTargets()
+
+commit 20efb0387d8416e0ac73058f0a083f1489069467
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Tue Mar 7 10:08:17 2023 -0700
+
+    'Cleaned' code up
+
+commit b69331b2f561d293f31581227ad54be7e1e5ac81
+Merge: 7c41a12 594b2fd
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sun Mar 5 13:35:44 2023 -0700
+
+    Merge branch 'main' of https://github.com/chulongbayan/ClueGame
+
+commit 594b2fd9adeaf7ed6f1218c46a2a3570dc651d65
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sun Mar 5 13:35:34 2023 -0700
+
+    Moved excel spreadsheets
+
+commit 7c41a12a57be52b16d27f6ab90f291d6c20d6746
+Merge: 93349e3 80a3a43
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sun Mar 5 13:34:28 2023 -0700
+
+    Merge branch 'main' of https://github.com/chulongbayan/ClueGame
+
+commit 93349e334b79d384e7d67d4f75e148be0dab19fc
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sun Mar 5 13:32:10 2023 -0700
+
+    added comments
+
+commit 80a3a43b3c8205b2bac8cd3b8830b08bf3734d32
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sun Mar 5 13:31:53 2023 -0700
+
+    Updated spreadsheet for test colors
+
+commit 0ae5c3eb6bad672ab92eed2480c5aecedede16f6
+Merge: bc92e7d 8aeb718
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sun Mar 5 13:22:36 2023 -0700
+
+    Merge branch 'main' of https://github.com/chulongbayan/ClueGame
+
+commit bc92e7d6db9b228bbf13e431ce6238f15910277e
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sun Mar 5 13:21:51 2023 -0700
+
+    adjusted tests to fit our board.
+
+commit 8aeb7185e36d047a6ac9b1f253eaf08a88301c36
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sun Mar 5 13:21:42 2023 -0700
+
+    Added two excel sheets showing the board and test conditions
+
+commit 8e4e4348c2e0d4341881e3379525dd0fb2f28367
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sun Mar 5 12:24:23 2023 -0700
+
+    Changed getAdjLst to not return null
+
+commit d669cee84ba19770f0210c5ad03b4f23d6159cbb
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sun Mar 5 12:03:40 2023 -0700
+
+    Added two more test files
+
+commit 8fcdcc2a4930afaeb041f5716a4d3096354e8c6c
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sat Mar 4 15:46:57 2023 -0700
+
+    Added gitrefactor.txt
+
+commit 21885571f869b4d6f61521bae97572e51e21f807
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sat Mar 4 15:41:23 2023 -0700
+
+    Refactoring code
+
+commit 89610a52eaa05f5d4b92e5d579bb38f8252600be
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sat Mar 4 15:30:53 2023 -0700
+
+    Added exception throwing code
+
+commit 3c110b3cbf0f213c63cb6b2d9bdc63a9663918c7
+Merge: 54e6b87 43457e5
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sat Mar 4 14:53:02 2023 -0700
+
+    Fixing merge errors
+
+commit 54e6b874659c847fc30d5670948f10e05616d8cf
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sat Mar 4 14:51:28 2023 -0700
+
+    Trying to merge
+
+commit 43457e50fbeebf6f2cad585413fb7acf36651f84
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sat Mar 4 14:45:11 2023 -0700
+
+    aded setup file input, all init tests now pass
+
+commit b0f11f8b98071109010a0c045e370a3539d993ec
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sat Mar 4 14:34:18 2023 -0700
+
+    Filled in BadConfigFormatException constructors
+
+commit 75483b6bd0e6e65783f513d92ea26c1cc6d373f7
+Merge: 4cca3e0 5a961ae
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sat Mar 4 13:40:25 2023 -0700
+
+    Merge branch 'main' of https://github.com/chulongbayan/ClueGame
+
+commit 4cca3e013e26367b996deba7979828ca7ed587a0
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sat Mar 4 13:38:12 2023 -0700
+
+    csv file input added
+
+commit 5a961aec8d04194e22af03590560fef897b7b6d3
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sat Mar 4 13:01:14 2023 -0700
+
+    Changed rows and cols from being static final
+
+commit 8f87e75cee5d0ef216ac2a3759113323e4905748
+Merge: 06efc98 46bc2c9
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sat Mar 4 12:43:50 2023 -0700
+
+    Merge branch 'main' of https://github.com/chulongbayan/ClueGame
+
+commit 06efc9885738ba822d72fb82b2b9193c4a8f6a12
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sat Mar 4 12:41:19 2023 -0700
+
+    started file laoding code
+
+commit 46bc2c9c91bd11a610735ec19ace1c5c17fd2ff2
+Merge: 8464ac2 6fc88ee
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sat Mar 4 12:39:51 2023 -0700
+
+    Merging previous changes with new changes
+    Merge branch 'main' of https://github.com/chulongbayan/ClueGame
+
+commit 8464ac287741e169d7e065c45725063a622c04a5
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sat Mar 4 12:39:17 2023 -0700
+
+    Filled in getters and setters for Board
+
+commit 6fc88ee732daf9abc8ed44997c45bd14f4399df9
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Fri Mar 3 10:04:44 2023 -0700
+
+    finished txt for clue init 1
+
+commit f1623a1f286d12c80272faac5582d3d780688404
+Merge: 1ff4f77 33e0c90
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Thu Mar 2 13:28:12 2023 -0700
+
+    Merge branch 'main' of https://github.com/chulongbayan/ClueGame
+
+commit 1ff4f774d298f75f01b53092d8b406097574e980
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Thu Mar 2 13:26:07 2023 -0700
+
+    finished some tests for FileInitTest
+
+commit 33e0c90d9084d71a3c336a8eb93ef23275ff4fbf
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Thu Mar 2 12:05:52 2023 -0700
+
+    Updated FileInitTest tests. Put in the correct coordinataes fo r doors and checked that rooms were put in correctly in filesLoading.
+
+commit a78cb14c47eacbdd053413e713e1c2c82037df06
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Thu Mar 2 10:44:58 2023 -0700
+
+    Started adding fileinittest tests
+
+commit 20105f839eb916fe91d7159fa1a872fd341dd658
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Thu Mar 2 10:35:47 2023 -0700
+
+    made so all provided tests fail and do not error
+
+commit 88944c8b01dcebf409526a971055f6d4923fd341
+Merge: d82e28d 5b83de5
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Thu Mar 2 10:26:06 2023 -0700
+
+    Merge branch 'main' of https://github.com/chulongbayan/ClueGame
+
+commit 5b83de5721c366292e1afa871bbf893edaa5be1c
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Thu Mar 2 10:13:36 2023 -0700
+
+    Added more Board getters
+
+commit e088cf6fb1ec43ffd732331d0b7d1cc10a7b2f75
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Thu Mar 2 10:11:22 2023 -0700
+
+    Fixing files not syncing
+
+commit d82e28d6580f0a74e50ef6a82b227c65788e9e19
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Thu Mar 2 10:09:04 2023 -0700
+
+    gits being weird try fix
+
+commit a45d9ca0f2a0df53aa51fa08b65cf15a3db1e630
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Thu Mar 2 10:07:00 2023 -0700
+
+    Added another setter to board
+
+commit 4a6e0f9af6ec99f3d1fd247660d454c36c53fed5
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Thu Mar 2 10:05:17 2023 -0700
+
+    fixed mistake with refactoring
+
+commit 73a0a69d4792f56123a8af3cf572219e775cf84f
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Thu Mar 2 10:01:15 2023 -0700
+
+    Moved Board constructor to initialize function
+
+commit a780196d6bc75fa73d490fe5b9b1e011599d9468
+Merge: e960a41 ed5e082
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Thu Mar 2 09:56:48 2023 -0700
+
+    Merge branch 'main' of https://github.com/chulongbayan/ClueGame
+
+commit e960a41f2f0a3b8c5dea6436fa9b81baeea1dc5c
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Thu Mar 2 09:53:19 2023 -0700
+
+    created someof the files for cluegame init 1
+
+commit ed5e082451ccf0cf088c731be9fc5f03e60a303a
+Merge: ae5b26b 7c8a748
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Thu Mar 2 09:50:42 2023 -0700
+
+    fixed merge conflicts
+
+commit ae5b26b5a6d7f93d6ce3ca025a0e4a1c7f5445a6
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Thu Mar 2 09:46:53 2023 -0700
+
+    Created Board and Room class stubs
+
+commit 7c8a748c16e547e705bf984df04e756c67de075c
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Wed Mar 1 14:39:00 2023 -0700
+
+    added files for map we made
+
+commit e9dd2911497eac180db483c389189c194a87abf4
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Wed Mar 1 14:37:24 2023 -0700
+
+    added in folders/ files for git init 1
+
+commit 20070b40513508c51c532866acde1718da3e4587
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Wed Mar 1 14:35:04 2023 -0700
+
+    finished testboard, passed tests, end cluepath1
+
+commit 7d16c976527b5e1a34a8984d58ea1ae9f4d6d75e
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Wed Mar 1 12:51:44 2023 -0700
+
+    added comments to failing tests, explaining why they are failing
+
+commit 6379284fbd58ba0835fae7310e0964e5d3e53cec
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Tue Feb 28 20:58:55 2023 -0700
+
+    fixed failing test testTargetsEmpty003() by updating calcTargets
+
+commit bdfde2b737a7845769a1c0451f35480a5a507749
+Merge: 6ae6d26 1e3e5ce
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Tue Feb 28 19:10:29 2023 -0700
+
+    fixed pull merge conflict
+
+commit 6ae6d26f26d2a481c61db1cf88a8591ed4059436
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Tue Feb 28 19:08:09 2023 -0700
+
+    fixing pull merge error
+
+commit 1e3e5ce57f47286340414e4bff390c6f86a44939
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Tue Feb 28 10:47:38 2023 -0700
+
+    debugging, added stuff to help with debugging
+
+commit 6c494dde0b980af88abd7d7c281724471bb6d013
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Tue Feb 28 10:34:15 2023 -0700
+
+    finished adjacency finding, passes all adjtest
+
+commit dba7d5cd72133e78737a9ccc5ad7e7810edbb826
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Tue Feb 28 10:10:44 2023 -0700
+
+    Added check for if an adjecent cell is a room in calcTargets
+
+commit 5b7f0ddd42e8a5b49e5f9c9b40ff51c1c41fd3d3
+Merge: c885f0b 8009e0a
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Tue Feb 28 10:04:31 2023 -0700
+
+    Merge branch 'main' of https://github.com/chulongbayan/ClueGame
+
+commit c885f0b41e221e7bb02ce71b6c4abd6f898112f4
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Tue Feb 28 10:00:15 2023 -0700
+
+    added semicolon
+
+commit 8009e0a79415eea695c2548a704c5360643bca03
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Tue Feb 28 10:00:10 2023 -0700
+
+    Updated TestBoard so that it should pass the tests when testBoardCell is implemented
+
+commit a45bdca4f5a48f21edced4194dc415b120cf2e5e
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Tue Feb 28 09:53:33 2023 -0700
+
+    testboardcell finished
+
+commit 86474f8b2ac338d9dea66bcde20472e26425f839
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sun Feb 26 10:16:48 2023 -0700
+
+    'Cleaned' the code, mainly just added doc blocks for everything.
+
+commit e1b4595e70f9833ad490a12602335e8318964a6e
+Author: lpdixon <lpdixon@mines.edu>
+Date:   Sun Feb 26 09:55:11 2023 -0700
+
+    Fixed three of the tests to check for the correct board cells. Also fixed 'getCell' in TestBoard so that it returns a cell to avoid null errors. All tests fail without error now.
+
+commit 1cd24142178645fd63b552f4806c384a507584cc
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sat Feb 25 15:49:38 2023 -0700
+
+    Added test cases. Landon driving.
+
+commit d9929f5f525e683df6f2be9b87bac9a449edf579
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sat Feb 25 14:48:17 2023 -0700
+
+    see prevous commit, forgot to add new files to commit
+
+commit 3c7dee72e335bfb46bf045439be44686d51aa965
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Sat Feb 25 14:46:24 2023 -0700
+
+    added TestBoard and TestBoardCell classes w/ empty methods. Charles driving
+
+commit 72666a4c8eb850465ab7400433fb60d98e7eaa6c
+Author: Charles Hulongbayan <chulongbayan@mines.edu>
+Date:   Thu Feb 23 11:23:53 2023 -0700
+
+    Initial git creation. Charles driving.

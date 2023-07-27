@@ -1,0 +1,128 @@
+diff --git a/bin/clueGame/Board.class b/bin/clueGame/Board.class
+index 959f9d7..a3a7af3 100644
+Binary files a/bin/clueGame/Board.class and b/bin/clueGame/Board.class differ
+diff --git a/bin/clueGame/BoardCell.class b/bin/clueGame/BoardCell.class
+index 566c94e..d97557b 100644
+Binary files a/bin/clueGame/BoardCell.class and b/bin/clueGame/BoardCell.class differ
+diff --git a/bin/clueGame/Room.class b/bin/clueGame/Room.class
+index 514c67a..2b6dae2 100644
+Binary files a/bin/clueGame/Room.class and b/bin/clueGame/Room.class differ
+diff --git a/src/clueGame/Board.java b/src/clueGame/Board.java
+index bcfe4df..0b090c6 100644
+--- a/src/clueGame/Board.java
++++ b/src/clueGame/Board.java
+@@ -17,8 +17,7 @@ import java.util.Scanner;
+ import java.util.Set;
+ 
+ /*
+- * TestBoard class used to test the methods that the board will use.
+- * Board will be used eventually to hold information about the game board
++ * Board class used to hold the board cells as well as calculate the possible targets for a move.
+  * 
+  * */
+ public class Board {
+@@ -45,7 +44,8 @@ public class Board {
+ 		return theInstance;
+ 	}
+ 	/*
+-	 * initialize the board (since we are using singleton pattern)
++	 * initialize the board (since we are using singleton pattern), calls both loadSetupConfig and loadLayoutConfig.
++	 * Also creates the adj list for each cell.
+ 	 */
+ 	public void initialize(){
+ 		//initialize grid 
+@@ -78,12 +78,15 @@ public class Board {
+ 				}
+ 			}
+ 		}
+-		//loadLayoutConfig();
+-		//loadSetupConfig();
+ 	}
+ 
+ 
+-
++	/*
++	 * loadLayoutConfig: Loads the layout file configuration information from a file. Throws an exception if the file formatting is incorrect.
++	 *	Also Initializes grid and inputs alll of the cells into it.
++	 * parameters: None
++	 * 
++	 * */
+ 	public void loadLayoutConfig() throws BadConfigFormatException{
+ 		try {
+ 			FileReader reader = new FileReader("data/"+ layoutConfigFile);
+@@ -150,6 +153,12 @@ public class Board {
+ 
+ 	}
+ 
++	/*
++	 * loadSetupConfig: Loads the setup file configuration information from a file. Throws an exception if the file formatting is incorrect.
++	 *	Also initializes roomMap and puts all the rooms (and Spaces) into it.
++	 * parameters: None
++	 * 
++	 * */
+ 	public void loadSetupConfig() throws BadConfigFormatException{
+ 		roomMap = new HashMap<Character,Room>();
+ 		try {
+@@ -238,7 +247,8 @@ public class Board {
+ 		this.setupConfigFile= setup;
+ 
+ 	}
+-
++	
++	//Two getters for a room, one that takes a cell one that takes a character.
+ 	public Room getRoom(Character character) {
+ 		return roomMap.get(character);
+ 	}
+diff --git a/src/clueGame/BoardCell.java b/src/clueGame/BoardCell.java
+index eabc03b..d660497 100644
+--- a/src/clueGame/BoardCell.java
++++ b/src/clueGame/BoardCell.java
+@@ -10,7 +10,7 @@ import java.util.Set;
+ 
+ 
+ /*
+- * BoardCell: class holds information about the status of board cells.
++ * BoardCell: class holds information about the status of a board cells.
+  * 
+  * */
+ public class BoardCell {
+@@ -40,6 +40,12 @@ public class BoardCell {
+ 		adjList.add(cell);
+ 	}
+ 	
++	//toString method
++	@Override
++	public String toString() {
++		return "TestBoardCell [row=" + row + ", col=" + col + ", isRoom=" + isRoom + ", isOccupied=" + isOccupied + "]";
++	}
++	
+ 	//setters and getters
+ 	public Set<BoardCell> getAdjList(){
+ 		return adjList;
+@@ -61,10 +67,7 @@ public class BoardCell {
+ 	public void setOccupied(boolean occupied) {
+ 		this.isOccupied = occupied;
+ 	}
+-	@Override
+-	public String toString() {
+-		return "TestBoardCell [row=" + row + ", col=" + col + ", isRoom=" + isRoom + ", isOccupied=" + isOccupied + "]";
+-	}
++	
+ 
+ 	public boolean isDoorway() {
+ 		
+diff --git a/src/clueGame/Room.java b/src/clueGame/Room.java
+index e6d315b..9bf5515 100644
+--- a/src/clueGame/Room.java
++++ b/src/clueGame/Room.java
+@@ -1,5 +1,10 @@
+ package clueGame;
+ 
++
++/*
++ * The Room class holds information about a room, specifically its name and where its center and label cells are.
++ * 
++ * */
+ public class Room {
+ 
+ 	private String name;
