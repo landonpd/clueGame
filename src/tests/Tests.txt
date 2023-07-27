@@ -1,0 +1,12 @@
+1.ensure your layout and setup files are loaded correctly (correct number of rooms, test several entries including first and last in file)
+	done with  filesLoading(), and implicitly with other methods
+2.ensure the correct number of rows/columns have been read
+	done with testBoardDimensions()
+3.verify at least one doorway in each direction. Also verify cells that don't contain doorways return false for isDoorway().
+	done with doorwayDirections(), checks 1 door of each direction and random walkway for no door direction
+4.check that the correct number of doors have been loaded.
+	done with function testNumberOfDoorways(), ensures that there are 17 doors like we have on our map
+5.check some of the cells to ensure they have the correct initial
+	done with function testCellsInitial(), checks a few random cells
+6.check that rooms have the proper center cell and label cell.
+	done with function testRoomsCenter() and testRoomsLabel, checks all 9 rooms 
